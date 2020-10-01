@@ -4,28 +4,21 @@ $tipografia: 'Courier Prime', monospace;
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
 
 
-.accordion1 {
-    @include accordion;
-    font-family: $tipografia;
-}
-.accordion2 {
-    @include accordion;
-    font-family: $tipografia;
-}
-.accordion3 {
+.accordion {
     @include accordion;
     font-family: $tipografia;
 }
 
-.active, .accordion1:hover {
+
+.active, .html:hover {
     background-color: #f16625; 
   }
 
-.active, .accordion2:hover {
+.active, .css:hover {
     background-color: #3399ff; 
   }
 
-.active, .accordion3:hover {
+.active, .js:hover {
     background-color: #ffda3e; 
   }
   
