@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+#estructura {
+  width: 500px;
+  margin: 0 auto; }
+
 .accordion {
   background-color: #eee;
   color: #444;
@@ -13,18 +17,18 @@
   transition: 0.4s;
   font-family: "Courier Prime", monospace; }
 
-.active, .html:hover {
-  background-color: #f16625; }
+.accordion:hover {
+  background-color: #423144;
+  color: white; }
 
-.active, .css:hover {
-  background-color: #3399ff; }
-
-.active, .js:hover {
-  background-color: #ffda3e; }
+.active {
+  background-color: #900d0d;
+  color: white; }
 
 .panel {
   font-family: "Courier Prime", monospace;
   padding: 0 18px;
   display: none;
-  background-color: white;
+  background-color: #ffdbc5;
+  color: black;
   overflow: hidden; }
