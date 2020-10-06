@@ -9,8 +9,8 @@
   font-family: "Cabin", sans-serif; }
 
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: gainsboro;
+  color: grey;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -32,7 +32,10 @@
 .panel {
   font-family: "Courier Prime", monospace;
   padding: 0 18px;
-  display: none;
+  display: block;
   background-color: #ffdbc5;
   color: black;
   overflow: hidden; }
+
+.oculto {
+  display: none; }
